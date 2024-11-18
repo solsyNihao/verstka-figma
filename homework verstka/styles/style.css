@@ -1,0 +1,160 @@
+p, h1, h2{
+    margin: 0;
+}
+body {
+    margin: 0 auto;
+}
+
+.main {
+    margin-left: 56px;
+    margin-top: 40px;
+}
+
+header {
+    width: 1338px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.navs{
+    display: flex;
+    justify-content: space-between;
+    width: 650px;
+    height: 24px;
+    padding-top: 10px;
+    padding-left: 387px;
+}
+
+.text-navs {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #303031;
+
+}
+
+.active {
+    font-weight: 700;
+    color: #71A894;
+
+}
+
+
+.heading {
+
+    width: 608px;
+    height: 352px;
+    margin-top: 191px;
+}
+
+
+
+.big-text {
+    margin: 0;
+    font-size: 64px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 24px;
+    color: #303031;
+
+}
+
+.small-text{
+    margin: 0;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button{
+    width: 219px;
+    height: 64px;
+    margin-top: 60px;
+    border: 0;
+    background-color: #71A894;
+    border-radius: 8px;
+}
+
+.button-text{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.blob-shape{
+    padding-left: 676px;
+}
+
+.illustration{
+
+    background: url(../imgs/blob-shape1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1012px;
+    height: 720px;
+
+}
+
+.top{
+    display: flex;
+}
+
+.background{
+    margin-top: 59px;
+}
+
+.box-slider{
+    margin-top: 160px;
+}
+
+.head-of-slider{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.head-of-slider-big-text{
+
+    font-size: 48px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.head-of-slider-small-text{
+    text-align: center;
+    margin-top: 24px;
+    width: 895px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.slider{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+
+}
+
+.slider-img{
+    width: 104px;
+    height: 88px;
+}
+
+.slider-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 427px;
+    height: 340px;
+    box-shadow: 1px 1px 8px #0000001A;
+    border-radius: 8px;
+}
+
+.slider-item-text{
+    text-align: center;
+}
